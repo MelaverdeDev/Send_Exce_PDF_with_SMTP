@@ -6,8 +6,8 @@ from win32com import client
 import os
 
 #Settings for file excel and PDF
-WB_PATH = "excel" #Path to original excel file
-PATH_TO_PDF = "yourpdf.pdf" #PDF path when saving
+WB_PATH = "excel" #relative path to original excel file
+PATH_TO_PDF = "yourpdf.pdf" #relative PDF path when saving
 path = os.path.abspath(WB_PATH)
 pathDest = os.path.abspath(PATH_TO_PDF)
 
